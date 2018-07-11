@@ -99,7 +99,7 @@ nav {
 }
 
 .sidenav a.active {
-  background-color: green;
+  background-color: #F73859;
   color: white;
 }
 
@@ -121,3 +121,11 @@ nav a:hover {
     .sidenav a {font-size: 18px;}
 }
 
+#contact_center {
+  padding: 50px
+}
+
+
+#movies_center{
+  padding:50px
+}
