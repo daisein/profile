@@ -1,0 +1,75 @@
+body {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 16px;
+  color: rgb(20, 20, 20);
+  background-color: rgb(230, 230, 230);
+}
+
+
+h1, h2, h3 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-size: 23px;
+  color: #F73859;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+
+h3 {
+  font-size: 17px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(100, 100, 100);
+}
+
+a:hover {
+  color: #F73859;
+}
+
+.card-white {
+  width: 700px;
+  background:  white;
+  padding: 31px;
+  margin: 50px auto;
+  border-radius:  60px;
+  box-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+  }
+
+.img-circle {
+  border-radius: 50%;
+  height: 200px;
+}
+
+.btn-red{
+  background-color: #F73859;
+  padding: 10px 15px;
+  color: white;
+  font-weight: bold;
+  border-radius:  60px;
+}
+
+.btn-red:hover {
+  color: white;
+  background-color: #F73859;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 0px 8px;
+}
