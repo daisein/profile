@@ -36,8 +36,8 @@ a:hover {
 .card-white {
   width: 700px;
   background:  white;
-  padding: 31px;
-  margin: 50px auto;
+  padding: 150px 40px 31px 31px;
+  margin: auto auto 50px auto;
   border-radius:  60px;
   box-shadow: 1px 1px 3px rgba(0,0,0,0.3);
   }
@@ -78,32 +78,39 @@ body {
     font-family: 'Cormorant Garamond', serif;
 }
 
+nav {
+
+  width: 100%;
+  position: fixed;
+}
+
 .sidenav {
-    height: 100%;
-    width: 120px;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #111;
-    overflow-x: hidden;
-    padding-top: 20px;
+  background-color: #333;
+  overflow: hidden;
 }
 
 .sidenav a {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
+  color: #f2f2f2;
+  float: left;
+  text-align: center;
+  font-size: 18px;
+  text-decoration: none;
+  padding: 16px;
 }
 
-.sidenav a:hover {
-    color: #f1f1f1;
+.sidenav a.active {
+  background-color: green;
+  color: white;
 }
+
+nav a:hover {
+  color: #111;
+  background-color: #eee;
+}
+
 
 .main {
-    margin-left: 160px; /* Same as the width of the sidenav */
+    margin: auto; /* Same as the width of the sidenav */
     font-family: 'Cormorant Garamond', serif;
     font-size: 18px; /* Increased text to enable scrolling */
     padding: 0px 10px;
